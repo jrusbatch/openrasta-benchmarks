@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\platform\PlatformAPI\1.1\framework\openrasta-core\src\OpenRasta.DI.Windsor\OpenRasta.DI.Windsor.csproj" />
+    <ProjectReference Include="..\..\platform\PlatformAPI\1.1\framework\openrasta-core\src\OpenRasta.Hosting.AspNetCore\OpenRasta.Hosting.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\platform\PlatformAPI\1.1\framework\openrasta-core\src\OpenRasta\OpenRasta.csproj" />
+  </ItemGroup>
+
+
+</Project>

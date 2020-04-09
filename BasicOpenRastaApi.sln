@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30001.183
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicOpenRastaApi", "BasicOpenRastaApi\BasicOpenRastaApi.csproj", "{6A92176C-025D-40A2-933C-F33C317E1CEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRasta", "..\platform\PlatformAPI\1.1\framework\openrasta-core\src\OpenRasta\OpenRasta.csproj", "{1C2BD472-AB88-49C3-9DE5-1CEB0387A048}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRasta.DI.Windsor", "..\platform\PlatformAPI\1.1\framework\openrasta-core\src\OpenRasta.DI.Windsor\OpenRasta.DI.Windsor.csproj", "{AAC63A38-8D1D-426E-B6A8-0B87CB08DBF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRasta.Hosting.Katana", "..\platform\PlatformAPI\1.1\framework\openrasta-core\src\OpenRasta.Hosting.Katana\OpenRasta.Hosting.Katana.csproj", "{59FD40C7-1F1D-4F41-8A77-BC3FDB00E504}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{640DB8FE-F985-477F-8567-4D6FFA514509}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicAspNetCoreApi", "BasicAspNetCoreApi\BasicAspNetCoreApi.csproj", "{11F6324C-403C-4CE1-9B75-3A4B3BD6D110}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRasta.Hosting.AspNetCore", "..\platform\PlatformAPI\1.1\framework\openrasta-core\src\OpenRasta.Hosting.AspNetCore\OpenRasta.Hosting.AspNetCore.csproj", "{AC4375F1-7159-440A-8494-859E62C605A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A92176C-025D-40A2-933C-F33C317E1CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A92176C-025D-40A2-933C-F33C317E1CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A92176C-025D-40A2-933C-F33C317E1CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A92176C-025D-40A2-933C-F33C317E1CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2BD472-AB88-49C3-9DE5-1CEB0387A048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2BD472-AB88-49C3-9DE5-1CEB0387A048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2BD472-AB88-49C3-9DE5-1CEB0387A048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2BD472-AB88-49C3-9DE5-1CEB0387A048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC63A38-8D1D-426E-B6A8-0B87CB08DBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC63A38-8D1D-426E-B6A8-0B87CB08DBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC63A38-8D1D-426E-B6A8-0B87CB08DBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC63A38-8D1D-426E-B6A8-0B87CB08DBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59FD40C7-1F1D-4F41-8A77-BC3FDB00E504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FD40C7-1F1D-4F41-8A77-BC3FDB00E504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FD40C7-1F1D-4F41-8A77-BC3FDB00E504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FD40C7-1F1D-4F41-8A77-BC3FDB00E504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F6324C-403C-4CE1-9B75-3A4B3BD6D110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F6324C-403C-4CE1-9B75-3A4B3BD6D110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F6324C-403C-4CE1-9B75-3A4B3BD6D110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F6324C-403C-4CE1-9B75-3A4B3BD6D110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4375F1-7159-440A-8494-859E62C605A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4375F1-7159-440A-8494-859E62C605A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4375F1-7159-440A-8494-859E62C605A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4375F1-7159-440A-8494-859E62C605A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C2BD472-AB88-49C3-9DE5-1CEB0387A048} = {640DB8FE-F985-477F-8567-4D6FFA514509}
+		{AAC63A38-8D1D-426E-B6A8-0B87CB08DBF0} = {640DB8FE-F985-477F-8567-4D6FFA514509}
+		{59FD40C7-1F1D-4F41-8A77-BC3FDB00E504} = {640DB8FE-F985-477F-8567-4D6FFA514509}
+		{AC4375F1-7159-440A-8494-859E62C605A3} = {640DB8FE-F985-477F-8567-4D6FFA514509}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B435B8F9-8513-4D3D-85BB-A189220A586E}
+	EndGlobalSection
+EndGlobal
