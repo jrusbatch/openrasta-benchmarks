@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicAspNetCoreApi", "Basic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRasta.Hosting.AspNetCore", "..\platform\PlatformAPI\1.1\framework\openrasta-core\src\OpenRasta.Hosting.AspNetCore\OpenRasta.Hosting.AspNetCore.csproj", "{AC4375F1-7159-440A-8494-859E62C605A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRastaHttpListenerFullFX", "OpenRastaHttpListenerFullFX\OpenRastaHttpListenerFullFX.csproj", "{F06227F6-D0B1-4344-A0C9-2BFA24EB41BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{AC4375F1-7159-440A-8494-859E62C605A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC4375F1-7159-440A-8494-859E62C605A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC4375F1-7159-440A-8494-859E62C605A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06227F6-D0B1-4344-A0C9-2BFA24EB41BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06227F6-D0B1-4344-A0C9-2BFA24EB41BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06227F6-D0B1-4344-A0C9-2BFA24EB41BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06227F6-D0B1-4344-A0C9-2BFA24EB41BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -41,13 +41,14 @@ namespace BasicAspNetCoreApi
                     });
                 });
 
-            appBuilder.Map("/openrastacore", app =>
-            {
-                    var configSources = new Configuration();
+            appBuilder.Map("/openrastacore",
+                app =>
+                {
+                        var configSources = new Configuration();
 
-                    app.UseOpenRasta(configSources, configSources);
+                        app.UseOpenRasta(configSources, configSources);
 
-            });
+                });
         }
     }
 }
